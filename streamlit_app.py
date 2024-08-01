@@ -1,7 +1,4 @@
 import streamlit as st
-import numpy as np
-import pandas as pd
-from sklearn.ensemble import RandomForestClassifier
 
 st.title('🤖 Machine Learning App')
 
@@ -12,6 +9,4 @@ with st.expander('Data'):
   df = pd.read_csv('iris.csv')
   df
   
-  st.write('**X**')
-    X_raw = df.drop('variety', axis=1)
-    X_raw
+  
