@@ -9,8 +9,8 @@ with st.expander('IRIS values'):
   df = pd.read_csv('iris.csv')
   df
 
-  st.write('**X**')
-  X_raw = df.drop('variety', axis=1)
+  st.write('**Input data**')
+  X_raw = df.drop('variety')
   X_raw
   
   
