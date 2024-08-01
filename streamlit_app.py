@@ -8,7 +8,7 @@ st.title('🤖 Machine Learning App')
 st.info('This is app builds a machine learning model!')
 
 with st.expander('Data'):
-  st.write('**Raw data**')
+  st.write('**IRIS data**')
   df = pd.read_csv('iris.csv')
   df
 
