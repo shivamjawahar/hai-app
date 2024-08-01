@@ -5,7 +5,7 @@ st.title('Machine Learning Project')
 
 st.info('IRIS machine learning model!')
 
-with st.expander('Data'):
+with st.expander('IRIS values'):
   df = pd.read_csv('iris.csv')
   df
   
