@@ -12,6 +12,6 @@ with st.expander('Data'):
   df = pd.read_csv('iris.csv')
   df
   
-st.write('**X**')
-  X_raw = df.drop('variety', axis=1)
-  X_raw
+  st.write('**X**')
+    X_raw = df.drop('variety', axis=1)
+    X_raw
