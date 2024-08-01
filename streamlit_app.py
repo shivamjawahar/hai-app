@@ -10,7 +10,7 @@ with st.expander('IRIS values'):
   df
 
   st.write('**Input data**')
-  X_raw = df.drop('variety')
+  X_raw = df.drop('variety', axis = 1)
   X_raw
   
   
