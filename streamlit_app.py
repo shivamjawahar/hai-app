@@ -11,4 +11,7 @@ with st.expander('Data'):
   st.write('**IRIS data**')
   df = pd.read_csv('iris.csv')
   df
-
+  
+st.write('**X**')
+  X_raw = df.drop('species', axis=1)
+  X_raw
