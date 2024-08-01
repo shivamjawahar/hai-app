@@ -16,3 +16,7 @@ with st.expander('IRIS values'):
   st.write('**Target data**')
   y_raw = df.variety
   y_raw
+
+with st.expander('IRIS visualization'):
+  st.scatter_chart(data=df, x='sepal.length', y='sepal.width', color='variety')
+
