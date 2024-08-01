@@ -13,4 +13,6 @@ with st.expander('IRIS values'):
   X = df.drop('variety', axis = 1)
   X
   
-  
+  st.write('**Target data**')
+  y_raw = df.variety
+  y_raw
